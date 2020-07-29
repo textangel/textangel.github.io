@@ -1,0 +1,14 @@
+- title: Student, Stanford Mathematical and Computational Science.
+  from: 2013
+  to: 2017
+  description: I graduated from Stanford in 2017, with a bachelor's in Mathematical and Computational Science, focusing on Machine Learning and with a heavy course load in Statistics. At Stanford, I also studied abroad in Japan and founded an a cappella group.
+
+- title: Student, Yenching Academy at Peking University
+  from: 2017
+  to: 2019
+  description: I studied Economics and Management for two years on full scholarship in Beijing, China. I also got a chance to intern at a Shanghai-based e-commerce firm, doing database testing, and a Beijing-based enterprise AI firm, writing recommender systems code.
+
+- title: Data Scientist, Grab
+  from: 2019
+  to: 2020
+  description: Grab is Southeast Asia's leading super app - the regional leader in ride-hailing, food-delivery, and logistics in a region of 655 million people. As a Data Scientist in the Econs team, I worked on machine learning pipelines for Grab's inaugural system providing marketing and personalized promotion targeting in the largest target market, Indonesia. We scaled this system from zero to 3 million weekly users.

@@ -1,0 +1,7 @@
+- name: R
+  percentage: 50
+  color: pink
+
+- name: C++
+  percentage: 50
+  color: orange

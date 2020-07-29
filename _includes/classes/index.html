@@ -1,0 +1,21 @@
+<div class="card-columns m-3 mt-5">
+  <!-- Local Projects -->
+  {% for class in site.classes %}
+    {%- assign class_type  = "local" -%}
+    {%- assign class_id    = class.name | slugify -%}
+    {%- assign class_img   = class.image -%}
+    {%- assign class_name  = class.name -%}
+    {%- assign class_desc  = class.description -%}
+    {%- assign class_tools = class.tools -%}
+
+    {%- if class.external_url -%}
+      {%- assign class_url = class.external_url -%}
+    {%- else -%}
+      {%- assign class_url = class.url | relative_url -%}
+    {%- endif -%}
+
+    {% include classes/class-card.html %}
+
+  {% endfor %}
+
+</div>

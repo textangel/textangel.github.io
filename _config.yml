@@ -1,0 +1,81 @@
+### Site Settings ###
+title               : Andrew Ma
+description         : >-
+                      Scholar, Engineer
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : textangel/textangel.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+
+### Author Info ###
+author:
+  name              : Andrew Ma
+  image             : /assets/images/prof-pic.jpg
+  email             : zhengma86@gmail.com
+  github            : textangel
+  linkedin          : zhengma-341
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  # classes:
+  #   output: true
+  #   permalink: /classes/:name
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  # - scope:
+  #     path: ""
+  #     type: "classes"
+  #   values:
+  #     layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
+
+### Prints Math ###
+markdown: kramdown
+kramdown:
+  math_engine: katex
+  

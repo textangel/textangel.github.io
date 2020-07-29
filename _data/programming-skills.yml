@@ -1,0 +1,11 @@
+- name: Python
+  percentage: 90
+  color: blue
+
+- name: Spark
+  percentage: 80
+  color: yellow
+
+- name: SQL
+  percentage: 90
+  color: dark
